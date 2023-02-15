@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx electron-packager . electron-app"
   },
   "author": "",
   "license": "ISC",
